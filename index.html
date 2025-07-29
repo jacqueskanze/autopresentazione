@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacques - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="topbar">
+        <div class="nav-items">
+            <a href="#home" class="nav-item active" data-page="home">Home</a>
+            <a href="#passioni" class="nav-item" data-page="passioni">Passioni</a>
+            <a href="#scuola" class="nav-item" data-page="scuola">Scuola</a>
+            <a href="#esperienze" class="nav-item" data-page="esperienze">Esperienze</a>
+            <a href="#contatti" class="nav-item" data-page="contatti">Contatti</a>
+        </div>
+    </nav>
+
+    <!-- Background Glows -->
+    <div class="bg-glow">
+        <div class="glow glow1"></div>
+        <div class="glow glow2"></div>
+    </div>
+
+    <!-- Home Page -->
+    <div id="home" class="page active">
+        <div class="container">
+            <!-- Main Header -->
+            <div class="main-header">
+                <div class="header-content">
+                    <h1>Jacques</h1>
+                    <p class="subtitle">Studente</p>
+                </div>
+                <div class="profile-image-container">
+                    <img src="029b6c1167b44076bc6538f407ba8dc7.jpg" 
+                         alt="Jacques Profile" class="profile-image">
+                </div>
+            </div>
+
+            <!-- Info Section -->
+            <div class="info-section glassmorphism">
+                <div class="info-item name-item">
+                    <span class="info-label">Nome</span>
+                    <span class="info-value name-value">Jacques Kanzeguhera</span>
+                </div>
+                
+                <div class="info-item">
+                    <span class="info-label">Data di nascita</span>
+                    <span class="info-value">04/01/2008</span>
+                </div>
+                
+                <div class="info-item">
+                    <span class="info-label">Luogo di nascita</span>
+                    <span class="info-value">Padova</span>
+                </div>
+                
+                <div class="info-item">
+                    <span class="info-label">Tifo</span>
+                    <span class="info-value">Juventus</span>
+                </div>
+                
+                <div class="info-item">
+                    <span class="info-label">E-mail</span>
+                    <div class="email-container">
+                        <span class="info-value email-value">jacqueskanzeguhera@gmail.com</span>
+                        <svg class="email-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Passioni Page -->
+    <div id="passioni" class="page">
+        <div class="container">
+            <div class="page-header">
+                <h1>Le mie Passioni</h1>
+                <p class="page-subtitle">Ciò che amo fare nel tempo libero</p>
+            </div>
+
+            <div class="passions-grid">
+                <div class="passion-card glassmorphism">
+                    <div class="passion-icon">💻</div>
+                    <h3>Programmazione</h3>
+                    <p>Sviluppo web e applicazioni. Mi piace creare interfacce moderne e funzionali con tecnologie all'avanguardia.</p>
+                </div>
+
+                <div class="passion-card glassmorphism">
+                    <div class="passion-icon">⚽</div>
+                    <h3>Calcio</h3>
+                    <p>Tifoso juventino da sempre. Seguo tutte le partite, gioco a calcio e anche a calcetto con gli amici nel tempo libero.</p>
+                </div>
+
+                <div class="passion-card glassmorphism">
+                    <div class="passion-icon">🎵</div>
+                    <h3>Musica</h3>
+                    <p>Ascolto principalmente hip-hop, sia rap che trap ma anche musica latina o d'altri tempi. So suonare la chitarra e amo farlo nel tempo libero.</p>
+                </div>
+            </div>
+
+            <div class="stats-section glassmorphism">
+                <h2>Statistiche Hobby</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number">2+</span>
+                        <span class="stat-label">Anni di Calcio</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Anni di Coding</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">17+</span>
+                        <span class="stat-label">Anni Juventino</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scuola Page -->
+    <div id="scuola" class="page">
+        <div class="container">
+            <div class="page-header">
+                <h1>Percorso Scolastico</h1>
+                <p class="page-subtitle">La mia formazione educativa</p>
+            </div>
+
+            <div class="education-timeline">
+                <div class="timeline-item glassmorphism">
+                    <div class="timeline-year">2023-2026</div>
+                    <div class="timeline-content">
+                        <h3>Liceo Scientifico Statale G. Galilei - Opzione Scienze Applicate</h3>
+                        <p>Attualmente ho frequentato il terzo anno presso il Liceo Scientifico G. Galilei: una sfida per crescere a livello organizzativo .</p>
+                        <div class="subjects">
+                            <span class="subject">Matematica</span>
+                            <span class="subject">Fisica</span>
+                            <span class="subject">Informatica</span>
+                            <span class="subject">...</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item glassmorphism">
+                    <div class="timeline-year">2020-2023</div>
+                    <div class="timeline-content">
+                        <h3>Scuola Secondaria di I Grado L. da Vinci</h3>
+                        <p>Diploma conseguito con voto 9/10. Particolare interesse per le materie scientifiche e linguistiche.</p>
+                        <div class="achievements">
+                            <span class="achievement">🏆 Migliore in Matematica</span>
+                            <span class="achievement">🎯 Bella esposizione orale all'esame</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="current-grades glassmorphism">
+                <h2>Voti Attuali</h2>
+                <div class="grades-grid">
+                    <div class="grade-item">
+                        <span class="subject-name">Matematica</span>
+                        <span class="grade">6</span>
+                    </div>
+                    <div class="grade-item">
+                        <span class="subject-name">Informatica</span>
+                        <span class="grade">8</span>
+                    </div>
+                    <div class="grade-item">
+                        <span class="subject-name">Fisica</span>
+                        <span class="grade">6</span>
+                    </div>
+                    <div class="grade-item">
+                        <span class="subject-name">Inglese</span>
+                        <span class="grade">8</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Esperienze Page -->
+    <div id="esperienze" class="page">
+        <div class="container">
+            <div class="page-header">
+                <h1>Le mie Esperienze</h1>
+                <p class="page-subtitle">Progetti e attività che ho realizzato</p>
+            </div>
+
+            <div class="experiences-grid">
+                <div class="experience-card glassmorphism">
+                    <div class="experience-header">
+                        <h3>Sito Web Personale</h3>
+                        <span class="experience-date">2024</span>
+                    </div>
+                    <p>Creazione del mio portfolio personale utilizzando HTML5, CSS3 e JavaScript. Design moderno con effetti glassmorphism.</p>
+                    <div class="tech-stack">
+                        <span class="tech">HTML5</span>
+                        <span class="tech">CSS3</span>
+                        <span class="tech">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="experience-card glassmorphism">
+                    <div class="experience-header">
+                        <h3>Gita alla Ducati - Calcolatrice</h3>
+                        <span class="experience-date">2024</span>
+                    </div>
+                    <p>Visita guidata al Ducati Museum di Borgo Panigale, Bologna: esperienza, non solo educativa, ma anche stimolante dal punto di vista scientifico e tecnologico..</p>
+                    <div class="tech-stack">
+                        <span class="tech">Fisica</span>
+                        <span class="tech">Industria</span>
+                        <span class="tech">Storia Motorsport</span>
+                    </div>
+                </div>
+
+                <div class="experience-card glassmorphism">
+                    <div class="experience-header">
+                        <h3>Gita a firenze</h3>
+                        <span class="experience-date">2025</span>
+                    </div>
+                    <p>Viaggio culturale nel cuore della Toscana. Visita agli Uffizi, a Santa Maria Maggiore e tanti altri luoghi suggestivi. Esperienza immersiva tra arte rinascimentale, architettura storica e cucina tradizionale.</p>
+                    <div class="tech-stack">
+                        <span class="tech">Arte</span>
+                        <span class="tech">Socialità</span>
+                        <span class="tech">Camminare</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-overview glassmorphism">
+                <h2>Competenze Acquisite</h2>
+                <div class="skills-list">
+                    <div class="skill-category">
+                        <h4>Frontend</h4>
+                        <div class="skill-items">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Responsive Design</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Linguaggi</h4>
+                        <div class="skill-items">
+                            <span>Python</span>
+                            <span>JavaScript</span>
+                            <span>CSS (base)</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Soft Skills</h4>
+                        <div class="skill-items">
+                            <span>Problem Solving</span>
+                            <span>Lavoro di squadra</span>
+                            <span>Comunicazione</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contatti Page -->
+    <div id="contatti" class="page">
+        <div class="container">
+            <div class="page-header">
+                <h1>Contattami</h1>
+                <p class="page-subtitle">Mettiamoci in contatto</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info glassmorphism">
+                    <h2>Informazioni di Contatto</h2>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <span class="contact-label">Email</span>
+                            <span class="contact-value email-value">jacqueskanzeguhera@gmail.com</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <span class="contact-label">Telefono</span>
+                            <span class="contact-value">+39 123 456 7890</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <span class="contact-label">Città</span>
+                            <span class="contact-value">Padova, Italia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="availability glassmorphism">
+                    <h2>Disponibilità</h2>
+                    <div class="availability-grid">
+                        <div class="availability-item">
+                            <span class="day">Lunedì-Venerdì</span>
+                            <span class="time">16:00 - 20:00</span>
+                        </div>
+                        <div class="availability-item">
+                            <span class="day">Weekend</span>
+                            <span class="time">10:00 - 18:00</span>
+                        </div>
+                        <div class="availability-item">
+                            <span class="day">Progetti</span>
+                            <span class="time">Flessibile</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social-links glassmorphism">
+                <h2>Social & Portfolio</h2>
+                <div class="social-grid">
+                    <a href="https://www.instagram.com/jacques.kanze" class="social-link">
+                        <span class="social-icon">📸</span>
+                        <span class="social-name">Instagram</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
